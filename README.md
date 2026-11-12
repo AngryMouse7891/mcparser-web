@@ -30,7 +30,7 @@
 - [Vue.js 开发者工具](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 - [在 Chrome DevTools 中启用自定义对象格式器](http://bit.ly/object-formatters)
 - Firefox：
-- [Vue.js 开发者工具](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+- [Vue.js 开发者工具](https://addons.mozilla.org/zh-CN/firefox/addon/vue-js-devtools/)
 - [在 Firefox DevTools 中启用自定义对象格式器](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
 ## TypeScript 对 `.vue` 导入的类型支持
