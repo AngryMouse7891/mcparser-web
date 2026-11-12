@@ -8,6 +8,13 @@
 
 This repository contains the official code for MCParser's website, built using Vue.js and MDUI 2. Everybody is welcome to open issues and PRs!
 
+## Features
+
+- Get download counts, latest version, and last updater data via the GitHub API
+- Uses MDUI 2 for a clean yet elegant interface
+- Supports high-speed downloads of release files using `gh-proxy`
+- Shows a "Thank you for downloading" message through `mdui-snackbar`
+
 ## Dependencies
 
 | Package | Latest Version | Description |
