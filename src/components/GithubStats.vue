@@ -27,7 +27,7 @@ const fmtDate = (iso: string): string =>
     <mdui-card variant="filled" class="stat-card">
       <div class="stat-body">
         <font-awesome-icon icon="star" size="2x"/>
-        <div class="stat-value">{{ stats.latestVersion }}</div>
+        <div class="stat-value">v{{ stats.latestVersion }}</div>
         <div class="stat-label">最新版本</div>
         <div class="stat-sub">发布于 {{ fmtDate(stats.publishedAt) }}</div>
       </div>
