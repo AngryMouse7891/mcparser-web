@@ -57,6 +57,31 @@ onMounted(async () => {
           <!-- 下载按钮区 -->
           <DownloadSection :assets="stats.assets" />
         <section class="hero">
+          <a href="https://www.mcbbs.co/space-uid-199297.html">
+            <mdui-button>
+              <img src="/img/mcbbs-favicon.png"/>
+              MCBBS纪念版
+            </mdui-button>
+          </a>
+          <a href="https://www.minebbs.com/members/angrymouse.348561/">
+            <mdui-button>
+              <img src="/img/minebbs-favicon.png" width="10%"/>
+              MineBBS
+            </mdui-button>
+          </a>
+          <a href="https://bbsmc.net/user/AngryMouse7891">
+            <mdui-button>
+              <img src="/img/bbsmc-favicon.png" width="20%"/>
+              BBSMC
+            </mdui-button>
+          </a>
+          <a href="https://github.com/AngryMouse7891">
+            <mdui-button>
+              <font-awesome-icon icon="fab fa-github" />
+              GitHub
+            </mdui-button>
+          </a>
+          <br>
           该网站使用
           <a href="https://fontawesome.com/">Font Awesome</a>
           、
