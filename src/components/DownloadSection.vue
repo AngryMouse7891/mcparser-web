@@ -26,7 +26,7 @@ const fmtSize = (bytes: number): string => {
       <mdui-button
         v-if="assets.length === 0"
         variant="tonal"
-        href="https://github.com/your-github-username/your-software-repo/releases"
+        href="https://github.com/AngryMouse7891/mcparser/releases"
       >
         前往 GitHub Releases 页
       </mdui-button>
