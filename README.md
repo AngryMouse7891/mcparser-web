@@ -2,7 +2,7 @@
 
 *简体中文* | [English](./README_en.md)
 
-> [!INFO]
+> [!NOTE]
 > 此项目八九成使用AI辅助编写（因为我不懂Vue awa）
 
 该仓库为MCParser的官网代码，使用Vue.js+MDUI 2实现，欢迎大家来提issue和PR

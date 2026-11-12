@@ -2,7 +2,7 @@
 
 [简体中文](./README.md) | *English*
 
-> [!INFO]
+> [!NOTE]
 > About 80-90% of this project was written with AI assistance (because I don’t really know Vue, aha)
 
 This repository contains the official code for MCParser's website, built using Vue.js and MDUI 2. Everybody is welcome to open issues and PRs!
