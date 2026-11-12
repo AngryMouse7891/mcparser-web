@@ -3,6 +3,10 @@ import type { ReleaseAsset } from '@/api/github'
 
 defineProps<{ assets: ReleaseAsset[] }>()
 
+// 通过 gh-proxy 加速 GitHub Release 下载
+const GH_PROXY = 'https://gh-proxy.com/'
+const proxiedUrl = (url: string): string => `${GH_PROXY}${url}`
+
 const fmtSize = (bytes: number): string => {
   if (bytes < 1024) return `${bytes} B`
   if (bytes < 1024 ** 2) return `${(bytes / 1024).toFixed(1)} KB`
@@ -17,7 +21,7 @@ const fmtSize = (bytes: number): string => {
       <mdui-button
         v-for="asset in assets"
         :key="asset.id"
-        :href="asset.browser_download_url"
+        :href="proxiedUrl(asset.browser_download_url)"
         variant="filled"
       >
       <font-awesome-icon :icon="['fa', 'cloud-download']" />
