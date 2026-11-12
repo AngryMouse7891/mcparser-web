@@ -56,6 +56,17 @@ onMounted(async () => {
 
           <!-- 下载按钮区 -->
           <DownloadSection :assets="stats.assets" />
+        <section class="hero">
+          该网站使用
+          <a href="https://fontawesome.com/">Font Awesome</a>
+          、
+          <a href="https://mdui.org/">MDUI 2</a>
+          和
+          <a href="https://vuejs.org/">Vue.js</a>
+          <br>
+          Copyright (c) 2026
+          <a href="https://www.mcbbs.co/space-uid-199297.html">红温的鼠鼠7891</a>
+        </section>
         </template>
       </mdui-layout-main>
     </mdui-layout>
