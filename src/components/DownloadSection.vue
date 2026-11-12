@@ -1,6 +1,11 @@
 <script setup lang="ts">
 import type { ReleaseAsset } from '@/api/github'
 import { ref } from 'vue'
+import { snackbar } from 'mdui';
+
+const showSnackbar = () => {
+  snackbar({ message: '感谢下载MCParser😎' });
+};
 
 defineProps<{ assets: ReleaseAsset[] }>()
 
@@ -28,6 +33,7 @@ const fmtSize = (bytes: number): string => {
         :key="asset.id"
         :href="proxiedUrl(asset.browser_download_url)"
         variant="filled"
+        @click="showSnackbar"
       >
       <font-awesome-icon :icon="['fa', 'cloud-download']" />
         {{ asset.name }}（{{ fmtSize(asset.size) }}）
