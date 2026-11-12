@@ -2,6 +2,19 @@
 
 MCParser的官网代码
 
+## 使用依赖
+
+| 包名 | 最新版本 | 描述 |
+| :-----: | :-----: | :-----: |
+| [`vue`](https://www.npmjs.com/package/vue) | ![latest](https://img.shields.io/npm/v/vue) | 渐进式 JavaScript 框架 |
+| [`vue-router`](https://www.npmjs.com/package/vue-router) | ![latest](https://img.shields.io/npm/v/vue-router) | Vue.js官方推荐的路由管理工具 |
+| [`pinia`](https://www.npmjs.com/package/pinia) | ![latest](https://img.shields.io/npm/v/pinia) | 符合直觉的 Vue.js 状态管理库 |
+| [`mdui`](https://www.npmjs.com/package/mdui) | ![latest](https://img.shields.io/npm/v/mdui) | 使用Web Components实现，遵循Material You设计规范的Web前端组件库 |
+| [`@fortawesome/fontawesome-svg-core`](https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core) | ![latest](https://img.shields.io/npm/v/@fortawesome/fontawesome-svg-core) | Font Awesome SVG核心 |
+| [`@fortawesome/free-brands-svg-icons`](https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons) | ![latest](https://img.shields.io/npm/v/@fortawesome/free-brands-svg-icons) | Font Awesome 品牌图标 |
+| [`@fortawesome/free-solid-svg-icons`](https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons) | ![latest](https://img.shields.io/npm/v/@fortawesome/free-solid-svg-icons) | Font Awesome 实心图标 |
+| [`@fortawesome/vue-fontawesome`](https://www.npmjs.com/package/@fortawesome/vue-fontawesome) | ![latest](https://img.shields.io/npm/v/@fortawesome/vue-fontawesome) | Font Awesome Vue 组件 |
+
 ## 推荐的 IDE 设置
 
 [VS Code](https://code.visualstudio.com/)   [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar)（并禁用 Vetur）。
