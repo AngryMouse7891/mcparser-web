@@ -1,5 +1,7 @@
 # mcparser-web
 
+*简体中文* | [English](./README_en.md)
+
 > [!INFO]
 > 此项目八九成使用AI辅助编写（因为我不懂Vue awa）
 
