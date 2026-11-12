@@ -1,11 +1,14 @@
 <script setup lang="ts">
 import type { ReleaseAsset } from '@/api/github'
+import { ref } from 'vue'
 
 defineProps<{ assets: ReleaseAsset[] }>()
 
-// 通过 gh-proxy 加速 GitHub Release 下载
+// 通过 gh-proxy 加速 GitHub Release 下载：勾选「高速下载」时加前缀，否则直连
 const GH_PROXY = 'https://gh-proxy.com/'
-const proxiedUrl = (url: string): string => `${GH_PROXY}${url}`
+const isChecked = ref(false)
+const proxiedUrl = (url: string): string =>
+  isChecked.value ? `${GH_PROXY}${url}` : url
 
 const fmtSize = (bytes: number): string => {
   if (bytes < 1024) return `${bytes} B`
@@ -18,6 +21,8 @@ const fmtSize = (bytes: number): string => {
   <section class="download">
     <h2>下载</h2>
     <div class="btn-row">
+      <mdui-checkbox name="checkbox_ghproxy" v-model="isChecked">高速下载</mdui-checkbox>
+      <br>
       <mdui-button
         v-for="asset in assets"
         :key="asset.id"
