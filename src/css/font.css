@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "Minecraft AE Pixel";
+  src: url("@/font/[苦力怕论坛]Minecraft\(同时支持中英文\).ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 使用 */
+.mc-font {
+  font-family: "Minecraft AE Pixel";
+}

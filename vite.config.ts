@@ -8,7 +8,14 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
-    vue(),
+    vue({
+      template: {
+        compilerOptions: {
+          // 把所有 mdui- 开头的标签当作自定义元素，交给 MDUI 处理
+          isCustomElement: (tag) => tag.startsWith('mdui-'),
+        },
+      },
+    }),
     vueJsx(),
     vueDevTools(),
   ],
